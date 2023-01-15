@@ -17,10 +17,10 @@ This will encrypt the plaintext entered by the user with a key of 3. Negative nu
 ```
 ./caesar -3
 ```
+This implementation uses the CS50 library and it's get_string function, as it is an enhancement of a problem set from [Harvards CS50](https://cs50.harvard.edu/x/2020/psets/2/caesar/). But you can easily replace it by standard C input functions.
+
 
 ## Warning
 
 As this program is written in C, it is important to be aware of potential security risks such as buffer overflows and other memory-related vulnerabilities. This implementation has been tested and is considered safe for use, but it's always a good practice to be cautious when working with low-level languages like C.
-
-This problem is an enhancement of a problem set from [Harvards CS50](https://cs50.harvard.edu/x/2020/psets/2/caesar/).
 
